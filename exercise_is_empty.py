@@ -10,7 +10,4 @@ def is_empty(lista):
     Returns:
         True si la lista está vacía, False en caso contrario
     """
-    if lista == []:
-        return True
-    else:
-        return False
+    return lista == []
